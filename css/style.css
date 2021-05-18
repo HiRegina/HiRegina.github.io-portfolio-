@@ -2,9 +2,9 @@
   box-sizing:border-box;
 }
 body{
-  background-color: #333;
-  /*background:#222 url(../photo/mine.JPG) center center;
-  background-size:cover;*/
+
+  background:#222 url(../photo/mine.JPG) center center;
+  background-size:cover;
   /*background-position: center;*/
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
