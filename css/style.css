@@ -2,11 +2,7 @@
   box-sizing:border-box;
 }
 body{
-
-  background:#222 url(../photo/mine.JPG) center center;
-  background-size:cover;
-  /*background-position: center;*/
-  min-height: 100vh;
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
@@ -89,10 +85,51 @@ img {
   width: 100%;
   left: 0;
 }
-#footer{
-  background-color:darkslateblue;
-  color: #fff;
+.banner{
+  min-height: 97vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color:rgba(0,0,0,0.5);
+  background-blend-mode: color;
+  color:#fff; 
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 26px;
+  padding-top:350px;
 }
+.banner h1{
+  font-size: 5vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*footer*/
+
+.content{
+  text-align: center;
+}
+.content-Inside {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.foot{
+  background-color: darkslateblue;
+}
+.footer{
+  color: #fff;
+  font-size: small;
+  height: 40px;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: -40px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+
+
+}
+
 
 /*Resopnsive*/
 /*Thsi media query use for ipad portrait view*/
