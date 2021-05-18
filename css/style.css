@@ -90,15 +90,6 @@ img {
   left: 0;
 }
 #footer{
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
-  padding: 20px 30px;
-  background-color:darkslateblue;
-  position: fixed;
-  left: 0;
-  top:0;
-  width: 100%;
-  z-index: 100;
 }
 
 /*Resopnsive*/
