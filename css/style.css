@@ -89,16 +89,18 @@ img {
   width: 100%;
   left: 0;
 }
-.burger{
-  display: none;
+#footer{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 20px 30px;
+  background-color:darkslateblue;
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  z-index: 100;
 }
-.burger div{
- 
-  width: 25px;
-  height: 5px;
-  background-color: floralwhite;
-  margin: 5px;
-}
+
 /*Resopnsive*/
 /*Thsi media query use for ipad portrait view*/
 @media only screen and (min-width:768px) and (max-width:991px){
