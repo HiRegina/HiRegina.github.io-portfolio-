@@ -97,15 +97,14 @@ img {
   text-shadow: 1px 1px 5px #000;
   font-size: 26px;
   padding-top:350px;
+  
 }
 .banner h1{
   font-size: 5vw;
   font-weight: 700;
   text-transform: uppercase;
 }
-
 /*footer*/
-
 .content{
   text-align: center;
 }
@@ -126,10 +125,85 @@ img {
   margin: 0 auto;
   padding: 0 30px;
   display: flex;
+}
+.banner2{
+  min-height: 97vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color:rgba(0,0,0,0.5);
+  background-blend-mode: color;
+  color:#fff; 
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
 
+  padding-top:350px;
+  
+}
+#mystorytable1{
+  margin: -250px auto; /*center*/
+  max-width: 1100px;
+  border: 1px solid #ccc;
+  padding: 0% 5% 0% 5%;
+  line-height: 40px;
+  text-align: left;
+}
+.d1{
+  max-width:1100px ;
+}
+.icon{
+  width: 30%;
+  height: auto;
+  float: right;
+}
+.icon img {
+  max-height: 300px;
+  width: auto;
+}
+.details1{
+  font-size: 20px ;
+  width: 70%;
+  float: left;
+  text-align: left;
+  font-weight: lighter;
+  line-height: 40px;
+}
+h2{
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+.SAD{
+  float: left;
+  width: 30%;
+
+}
+.SA{
+  float: right;
+  width: 70%;
 
 }
 
+
+/*#mystorycss_table {
+  display:table;
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  text-align: center;
+   
+}
+.mystorycss_tr {
+  display: table-row;
+
+}
+.mystorycss_td {
+  display: table-cell;
+  border: 1px solid#ccc;
+}*/
 
 /*Resopnsive*/
 /*Thsi media query use for ipad portrait view*/
