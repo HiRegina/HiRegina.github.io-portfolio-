@@ -127,7 +127,7 @@ img {
   display: flex;
 }
 .banner2{
-  min-height: 340vh;
+  min-height: 380vh;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
