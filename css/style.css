@@ -86,7 +86,7 @@ img {
   left: 0;
 }
 .banner{
-  min-height: 97vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
