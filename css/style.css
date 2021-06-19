@@ -389,7 +389,7 @@ h6{
   background-blend-mode: color;
 }
 .carousel-item{
-  background-color: #696969;
+  background-color: #444;
   color:#fff;
   position: relative;
 }
@@ -418,6 +418,9 @@ h6{
 }
 .Edmimg{
   width: 80%;
+  display:block; 
+  margin:auto;
+  background-color:#444;
 }
 
 .logobutton{
