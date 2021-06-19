@@ -554,5 +554,8 @@ h6{
   .service_box{
     width: 330px;
   }
+  #titteEDM{
+    display: none;
+  }
 
 }
