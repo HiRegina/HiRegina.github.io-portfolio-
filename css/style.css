@@ -453,8 +453,15 @@ h6{
   margin-bottom: 10%;
   word-spacing: 20px;
 }
+.workshop img{
+  max-width: 1100px;   
+  display:block; 
+  margin:auto;
+}
+.h8{
+  font-size: 70px;
 
-
+}
 
 
 
@@ -558,6 +565,18 @@ h6{
   }
   #titteEDM{
     display: none;
+  }
+  .h8{
+    font-size: 60px;
+  }
+  .text{
+    font-size: 30px;
+  }
+  .tittetext{
+    font-size: 30px;
+  }
+  .logobutton{
+    font-size: 20px;
   }
 
 }
